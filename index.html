@@ -288,6 +288,9 @@ footer .pen-sign{font-family:var(--pen);font-size:1.4rem;color:var(--rose-ink);m
   <img src="assets/favicon.png" alt="" width="34" height="34">
   <a class="wordmark" href="#">TappyType</a>
   <div class="spacer"></div>
+  <a class="plain" href="https://www.instagram.com/tappytype/" target="_blank" rel="noopener" aria-label="Instagram @tappytype">
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" style="vertical-align:-3px"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle cx="17.4" cy="6.6" r="1.1" fill="currentColor" stroke="none"/></svg>
+  </a>
   <a class="plain" href="./privacy/" data-i18n="nav_privacy">개인정보 처리방침</a>
   <button class="lang-toggle" id="langToggle" aria-label="Switch language">EN</button>
 </nav>
@@ -301,7 +304,7 @@ footer .pen-sign{font-family:var(--pen);font-size:1.4rem;color:var(--rose-ink);m
       <a class="btn btn-primary" href="#video">▶ <span data-i18n="cta_video">55초 데모 보기</span></a>
       <a class="btn btn-ghost" href="#how" data-i18n="cta_how">어떻게 만들어요?</a>
     </div>
-    <p class="coming">🍎 <span data-i18n="coming">App Store 출시 준비 중이에요</span></p>
+    <p class="coming">🍎 <span data-i18n="coming">App Store 출시 준비 중이에요</span> · <a href="https://www.instagram.com/tappytype/" target="_blank" rel="noopener" data-i18n="coming_ig">인스타에서 소식 받기 @tappytype</a></p>
   </div>
 
   <div class="hero-visual">
@@ -423,6 +426,7 @@ footer .pen-sign{font-family:var(--pen);font-size:1.4rem;color:var(--rose-ink);m
   <div data-i18n="ft_tag">아이패드 전용 · 애플펜슬 한글 손글씨 폰트 메이커</div>
   <div class="links">
     <a href="./privacy/" data-i18n="nav_privacy">개인정보 처리방침</a>
+    <a href="https://www.instagram.com/tappytype/" target="_blank" rel="noopener">Instagram @tappytype</a>
     <a href="mailto:0130yang@gmail.com" data-i18n="ft_contact">문의하기</a>
   </div>
   <div>© 2026 석지인 (Jiin Seok)</div>
@@ -437,7 +441,7 @@ const I18N = {
     badge:'iPad 전용 · Apple Pencil',
     h1:`내 손글씨가<br><span class="pen-accent">진짜 폰트<svg viewBox="0 0 340 24" aria-hidden="true"><path d="M4 16 Q 60 6 120 13 T 230 12 T 336 10"/></svg></span>가 돼요`,
     hero_sub:'애플펜슬로 몇 글자만 쓰면, AI가 나머지 한글을 내 글씨체로 채워요. 진짜 폰트 파일(.ttf)로 내보내서 굿노트·프로크리에이트·키노트 어디서든 쓰세요.',
-    cta_video:'55초 데모 보기', cta_how:'어떻게 만들어요?', coming:'App Store 출시 준비 중이에요',
+    cta_video:'55초 데모 보기', cta_how:'어떻게 만들어요?', coming:'App Store 출시 준비 중이에요', coming_ig:'인스타에서 소식 받기 @tappytype',
     dd_label:'딸깍 ✨', dd_title:'몇 글자만 쓰면, 나머지는 딸깍',
     dd_sub:'한글은 11,172자나 돼요. 태피타입의 AI는 내가 쓴 글자에서 글씨체를 배워, 안 쓴 글자를 같은 느낌으로 그려줘요. 아래 버튼으로 미리 구경해 보세요.',
     dd_btn:'AI 딸깍', dd_reset:'다시 보기', dd_leg_hand:'내가 쓴 글자', dd_leg_ai:'AI가 채운 글자', dd_done:'글범이가 다 채웠어요!',
@@ -464,7 +468,7 @@ const I18N = {
     badge:'iPad only · Apple Pencil',
     h1:`Your handwriting,<br><span class="pen-accent">a real font<svg viewBox="0 0 340 24" aria-hidden="true"><path d="M4 16 Q 60 6 120 13 T 230 12 T 336 10"/></svg></span>`,
     hero_sub:'Write a few characters with Apple Pencil and AI fills in the rest of Hangul in your style. Export a real .ttf font and use it in GoodNotes, Procreate, Keynote — anywhere.',
-    cta_video:'Watch 55s demo', cta_how:'How it works', coming:'Coming soon to the App Store',
+    cta_video:'Watch 55s demo', cta_how:'How it works', coming:'Coming soon to the App Store', coming_ig:'Follow along @tappytype',
     dd_label:'AI Generate ✨', dd_title:'Write a few, AI fills the rest',
     dd_sub:"Korean has 11,172 syllables. TappyType's AI learns your style from the characters you write and draws the rest to match. Try the button below.",
     dd_btn:'AI Generate', dd_reset:'Replay', dd_leg_hand:'Written by me', dd_leg_ai:'Filled by AI', dd_done:'Tappy filled them all!',
