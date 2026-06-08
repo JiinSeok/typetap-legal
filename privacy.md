@@ -16,7 +16,7 @@ TappyType(태피타입)은 개인정보를 **수집·저장하지 않습니다**
   이미지는 실시간으로 처리되어 글자 외곽선 데이터로 변환된 직후 **즉시 폐기되며, 저장·로그·제3자 제공이 일절 없습니다.**
   이 기능은 사용 전 앱 내에서 명시적으로 동의를 받으며, 사용하지 않으면 어떤 데이터도 기기를 떠나지 않습니다.
 - 보유하는 개인정보가 없으므로 파기·열람·정정 절차가 별도로 필요하지 않습니다.
-- 문의: **seokjiin1073@gmail.com**
+- 문의: **team@tappytype.com**
 
 ## English
 
@@ -27,4 +27,4 @@ TappyType does **not collect or store any personal data**.
   Images are processed in real time and **immediately discarded** — never stored, logged, or shared with third parties.
   The app asks for your explicit consent before first use; if you don't use this feature, no data ever leaves your device.
 - Since we hold no personal data, there is nothing to delete or request access to.
-- Contact: **seokjiin1073@gmail.com**
+- Contact: **team@tappytype.com**
